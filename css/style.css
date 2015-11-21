@@ -92,6 +92,10 @@ a:link, a:visited, a:hover, a:active {
   -webkit-transition: 0.15s;
   -o-transition: 0.15s;
   -moz-transition: 0.15s;
+  transition: property duration timing-function delay;
+  -webkit-transition: property duration timing-function delay;
+  -o-transition: property duration timing-function delay;
+  -moz-transition: property duration timing-function delay;
 }
 
 .global-nav .nav-item.active a,
