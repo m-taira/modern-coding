@@ -324,7 +324,7 @@ RANKING
 */
 
 .ranking {
-  margin-top: 30px;
+  margin-bottom: 30px;
   list-style-type: none;
   counter-reset: ranking;
 }
@@ -402,4 +402,43 @@ RANKING
   -webkit-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
+}
+
+/*
+DOCUMENT
+*/
+
+.documents {
+  margin: 10px 10px 30px;
+}
+
+.documents,
+.documents ul {
+  list-style-type: none;
+}
+
+.documents > li .title {
+  margin: 15px 0;
+  padding-left: 8px;
+  border-left: 5px solid #d03c56;
+  font-size: 1.4rem;
+  line-height: 1.2;
+}
+
+.documents > li + li {
+  margin-top: 25px;
+}
+
+.documents > li ul {
+  margin: 15px;
+}
+
+.documents > li ul > li {
+  margin-bottom: 15px;
+  padding-left: 10px;
+  background: url("../images/arrow.gif") no-repeat left center;
+}
+
+.documents a:hover {
+  text-decoration: underline;
 }
